@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/wall6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialDaysActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/together_for"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:id="@+id/total_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_366"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/days"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#69000000"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/special_days"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:layout_weight="15"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/addMemories"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/add"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+        
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/specialDaysRV"/>
+    </LinearLayout>
+</ScrollView>

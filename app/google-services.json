@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775581317899",
+    "project_id": "nadiya12052001",
+    "storage_bucket": "nadiya12052001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775581317899:android:fa1b8e4b21ddef2654400e",
+        "android_client_info": {
+          "package_name": "com.gajendra.nadiya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxqeKd-L_msNbCmu0ux1P_gWnf9UvlXFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    android:elevation="0dp"
+    app:cardElevation="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#A9056578">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:padding="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/periods"/>
+
+    <TextView
+        android:id="@+id/periodTrackerItemDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/created_at"/>
+
+    <TextView
+        android:id="@+id/periodTrackerItemMonthTV"
+        android:layout_width="match_parent"
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginEnd="10dp"
+        android:textStyle="bold"
+        android:gravity="end|center"
+        android:text="@string/november"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

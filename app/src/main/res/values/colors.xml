@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="napa_sunset">#cc945c</color>
+    <color name="maple_elixir">#f5cc93</color>
+    <color name="otter_brown">#64421f</color>
+    <color name="bungalow_brown">#ac947c</color>
+    <color name="birchwood">#c9bdac</color>
+    <color name="smoked_pearl">#646464</color>
+</resources>
